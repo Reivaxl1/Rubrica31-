@@ -43,5 +43,7 @@ public class DeberDeCristhianLimongi {
         }
         return (valor1);
     }
-    
+     public static void mostrar (int mayore ,int number1,int number2,int number3){
+        System.out.printf(" la mayor de las variables es %d de las  variables %d %d %d \n",mayore,number1,number2,number3);
+    }
 }
