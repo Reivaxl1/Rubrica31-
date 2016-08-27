@@ -21,7 +21,10 @@ public class DeberDeCristhianLimongi {
         numero=1;
         numero1=2;
         numero2=3;
-        //hallar el mayor
+     
+          //hallar el mayor
+        mayor=hayar(numero,numero1,numero2);
+        
     }
      public static int hayar (int valor1,int valor2,int valor3){
         int mayorito=0;
