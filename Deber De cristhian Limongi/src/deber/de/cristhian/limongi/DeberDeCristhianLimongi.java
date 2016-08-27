@@ -23,5 +23,22 @@ public class DeberDeCristhianLimongi {
         numero2=3;
         //hallar el mayor
     }
+     public static int hayar (int valor1,int valor2,int valor3){
+        int mayorito=0;
+        mayorito=valor1;
+        
+        if (valor2>mayorito){
+            mayorito=valor2;
+             
+        }
+        if (valor3>mayorito){
+            mayorito=valor3;
+             return (valor3);
+        }
+        if (valor2==mayorito){
+            return(valor2);
+        }
+        return (valor1);
+    }
     
 }
